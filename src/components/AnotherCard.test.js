@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOMClient from "react-dom";
 
-import MyCard from "./MyCard";
+import AnotherCard from "./AnotherCard";
 
 it("renders without crashing", () => {
 	const div = document.createElement("div");
 	const root = ReactDOMClient.createRoot(div);
-	root.render(<MyCard />, div);
+	root.render(<AnotherCard />, div);
 });
